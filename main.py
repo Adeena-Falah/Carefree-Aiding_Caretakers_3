@@ -7,7 +7,7 @@ from routes import (auth, patients, caretakers, tasks, appointments,
 from config import DB_HOST, DB_PORT, DB_SERVICE, DB_USER, DB_PASSWORD
 import cx_Oracle as oracledb
 
-# ── App ───────────────────────────────────────────────────────────────────────
+# ── App ─────────────────────────────────────────────────────────────
 app = FastAPI(title="Carefree API", version="5.0 — Normalized Oracle Edition")
 
 app.add_middleware(
